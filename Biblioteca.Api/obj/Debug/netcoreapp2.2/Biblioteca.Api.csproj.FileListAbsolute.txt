@@ -1,0 +1,14 @@
+C:\Users\Andres\source\repos\PruebaAndresHernandez\Biblioteca.Api\bin\Debug\netcoreapp2.2\Biblioteca.Api.deps.json
+C:\Users\Andres\source\repos\PruebaAndresHernandez\Biblioteca.Api\bin\Debug\netcoreapp2.2\Biblioteca.Api.runtimeconfig.json
+C:\Users\Andres\source\repos\PruebaAndresHernandez\Biblioteca.Api\bin\Debug\netcoreapp2.2\Biblioteca.Api.runtimeconfig.dev.json
+C:\Users\Andres\source\repos\PruebaAndresHernandez\Biblioteca.Api\bin\Debug\netcoreapp2.2\Biblioteca.Api.dll
+C:\Users\Andres\source\repos\PruebaAndresHernandez\Biblioteca.Api\obj\Debug\netcoreapp2.2\Biblioteca.Api.csproj.CoreCompileInputs.cache
+C:\Users\Andres\source\repos\PruebaAndresHernandez\Biblioteca.Api\obj\Debug\netcoreapp2.2\Biblioteca.Api.RazorAssemblyInfo.cache
+C:\Users\Andres\source\repos\PruebaAndresHernandez\Biblioteca.Api\obj\Debug\netcoreapp2.2\Biblioteca.Api.RazorAssemblyInfo.cs
+C:\Users\Andres\source\repos\PruebaAndresHernandez\Biblioteca.Api\obj\Debug\netcoreapp2.2\Biblioteca.Api.AssemblyInfoInputs.cache
+C:\Users\Andres\source\repos\PruebaAndresHernandez\Biblioteca.Api\obj\Debug\netcoreapp2.2\Biblioteca.Api.AssemblyInfo.cs
+C:\Users\Andres\source\repos\PruebaAndresHernandez\Biblioteca.Api\obj\Debug\netcoreapp2.2\Biblioteca.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Andres\source\repos\PruebaAndresHernandez\Biblioteca.Api\bin\Debug\netcoreapp2.2\Biblioteca.Api.pdb
+C:\Users\Andres\source\repos\PruebaAndresHernandez\Biblioteca.Api\obj\Debug\netcoreapp2.2\Biblioteca.Api.csprojAssemblyReference.cache
+C:\Users\Andres\source\repos\PruebaAndresHernandez\Biblioteca.Api\obj\Debug\netcoreapp2.2\Biblioteca.Api.dll
+C:\Users\Andres\source\repos\PruebaAndresHernandez\Biblioteca.Api\obj\Debug\netcoreapp2.2\Biblioteca.Api.pdb
