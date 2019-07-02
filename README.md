@@ -1,14 +1,14 @@
 # BlueSoft
 
-Prueba Andres Hernandez
+#Prueba Andres Hernandez
 
 Para Compilar el proyecto al nivel de la carpeta del proyecto angular ingresar 
 
-npm i 
+#npm i 
 
 para ejecutarlo ingresar
 
-ng serve
+#ng serve
 
 
 
