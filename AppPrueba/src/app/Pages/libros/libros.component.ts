@@ -119,8 +119,8 @@ export class LibrosComponent implements OnInit {
   Guardar() {
     if (this.frm.valid) {
       this.Libro.Nombre = this.frm.controls.Nombre.value;
-      this.Libro.IdAutor = this.frm.controls.Autor.value;
-      this.Libro.IdCategoria = this.frm.controls.Categoria.value;
+      this.Libro.IdAutor = this.frm.controls.Autor.value.idAutor;
+      this.Libro.IdCategoria = this.frm.controls.Categoria.value.idCategoria;
       this.Libro.ISBN = this.frm.controls.ISBN.value;
       this.service.postLibro(this.Libro)
       .pipe(

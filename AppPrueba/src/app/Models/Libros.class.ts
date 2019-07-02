@@ -3,7 +3,7 @@ import { Categoria } from './Categoria.class';
 export class Libro {
     idLibro: number;
     Nombre: string;
-    IdAutor: Autor;
-    IdCategoria: Categoria;
+    IdAutor: number;
+    IdCategoria: number;
     ISBN: string;
 }

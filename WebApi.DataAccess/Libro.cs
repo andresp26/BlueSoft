@@ -17,11 +17,15 @@ namespace WebApi.DataAccess
         [Required]
         public string Nombre { get; set; }
 
-        [Required]
-        public Autor IdAutor { get; set; }
+        [ForeignKey("IdAutor")]
+        public Autor Autor { get; set; }
 
-        [Required]
-        public Categoria IdCategoria { get; set; }
+        public int IdAutor { get; set; }
+
+        [ForeignKey("IdCategoria")]
+        public Categoria Categoria { get; set; }
+
+        public int IdCategoria { get; set; }
 
         [Required]
         public string ISBN { get; set; }
