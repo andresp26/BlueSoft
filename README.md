@@ -12,7 +12,6 @@ para ejecutarlo ingresar
 
 
 
-Se intento la autenticacion por JWT , pero en las pruebas no me validaba el token.
 
 Cada pantalla tiene una grilla donde se puede filtrar la informacion.
 
