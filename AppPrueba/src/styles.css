@@ -1,0 +1,14 @@
+
+
+/* You can add global styles to this file, and also import other style files */
+@import "~ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/dist/styles/ag-theme-balham.css";
+@import "~ag-grid-community/dist/styles/ag-theme-blue.css";
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+.ng-select.custom {
+    border: 0px;
+    min-height: 0px;
+    border-radius: 0;
+  }
+  

@@ -1,0 +1,42 @@
+<app-menu></app-menu>
+<div class="container">
+    <h2 class="text-center">Modulo Libros</h2>
+    <hr>
+    <br>
+    <div class="row">
+        <div class="card">
+            <h5 class="card-header text-white bg-primary">Formulario</h5>
+            <div class="card-body">
+                <form [formGroup]="frm">
+                    <div class="form-row align-items-center">
+                      <div class="col-auto">
+                        <input type="text" class="form-control mb-2" id="inlineFormInput" formControlName="Nombre" placeholder="Nombre Libro">
+                      </div>
+                      <div class="col-3">
+                     <ng-select clsas="custom"  formControlName="Autor" [items]="autores" bindLabel="Nombre"  placeholder="'Seleccione Autor'"></ng-select>
+                      </div> 
+                      <div class="col-3">
+                        <ng-select clsas="custom"  formControlName="Categoria" bindLabel="Nombre" [items]="categorias" placeholder="'Seleccione Categoria'"></ng-select>
+                         </div> 
+                         <div class="col-auto">
+                          <input type="text" class="form-control mb-2" id="inlineFormInput" formControlName="ISBN" placeholder="ISBN">
+                           </div>                      
+                      <div class="col-auto">
+                        <button type="button" class="btn btn-success mb-2" (click)="Guardar()">Crear</button>
+                        <button type="button" class="btn btn-success mb-2 ml-2">Editar</button>
+                        <button type="button" class="btn btn-danger mb-2 ml-2">Eliminar</button>
+                      </div>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card mt-2">
+            <h5 class="card-header text-white bg-primary">Buscador de Libros</h5>
+            <ag-grid-angular #Grid style="width: 100%; height: 250px;" class="ag-theme-blue"  [animateRows]="true"
+            [rowData]="infoData" (rowClicked)="EditarCell($event.data)"  [floatingFilter]=true  rowSelection="single" [columnDefs]="columnDefs"  >
+            </ag-grid-angular>
+        </div>
+    </div>
+</div>

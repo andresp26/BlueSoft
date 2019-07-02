@@ -1,0 +1,19 @@
+<nav class="navbar navbar-dark bg-primary navbar-expand-lg ">
+    <a class="navbar-brand" href="#">Prueba Andres Hernandez</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" [routerLink]="['/Libros']" routerLinkActive="router-link-active" >Libros <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/Autor']">Autores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/Categoria']">Categorias</a>
+        </li>
+      </ul>
+    </div>
+  </nav>

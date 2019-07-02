@@ -1,0 +1,42 @@
+<app-menu></app-menu>
+<div class="container">
+    <h2 class="text-center">Modulo Categorias</h2>
+    <hr>
+    <br>
+    <div class="row">
+        <div class="card">
+            <h5 class="card-header text-white bg-primary">Formulario</h5>
+            <div class="card-body">
+                <form [formGroup]="frm">
+                    <div class="form-row align-items-center">
+                      <div class="col-auto">
+                        <label class="sr-only" for="inlineFormInput">Nombre</label>
+                        <input type="text" class="form-control mb-2" id="inlineFormInput" formControlName="Nombre" placeholder="Nombre">
+                      </div>
+                      <div class="col-auto">
+                        <label class="sr-only" for="inlineFormInputGroup">Descripcion</label>
+                        <div class="input-group mb-2">
+                          <div class="input-group-prepend">                            
+                          </div>
+                          <input type="text" class="form-control" id="inlineFormInputGroup" formControlName="Descripcion" placeholder="Descripcion">
+                        </div>
+                      </div>                      
+                      <div class="col-auto">
+                        <button type="button" class="btn btn-success mb-2" (click)="Guardar()">Crear</button>
+                        <button type="button" class="btn btn-success mb-2 ml-2" (click)="Editar()">Editar</button>
+                        <button type="button" class="btn btn-danger mb-2 ml-2" (click)="Eliminar()">Eliminar</button>
+                      </div>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card mt-2">
+            <h5 class="card-header text-white bg-primary">Informacion</h5>
+            <ag-grid-angular #Grid style="width: 100%; height: 250px;" class="ag-theme-blue"  [animateRows]="true"
+            [rowData]="infoData" (rowClicked)="EditarCell($event.data)"  [floatingFilter]=true  rowSelection="single" [columnDefs]="columnDefs"  >
+            </ag-grid-angular>
+        </div>
+    </div>
+</div>

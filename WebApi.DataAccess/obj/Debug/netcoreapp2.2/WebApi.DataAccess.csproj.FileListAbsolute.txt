@@ -1,0 +1,11 @@
+C:\Users\phernandez\source\repos\PruebaAndresHernandez\WebApi.DataAccess\bin\Debug\netcoreapp2.2\WebApi.DataAccess.deps.json
+C:\Users\phernandez\source\repos\PruebaAndresHernandez\WebApi.DataAccess\bin\Debug\netcoreapp2.2\WebApi.DataAccess.dll
+C:\Users\phernandez\source\repos\PruebaAndresHernandez\WebApi.DataAccess\obj\Debug\netcoreapp2.2\WebApi.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\phernandez\source\repos\PruebaAndresHernandez\WebApi.DataAccess\obj\Debug\netcoreapp2.2\WebApi.DataAccess.AssemblyInfoInputs.cache
+C:\Users\phernandez\source\repos\PruebaAndresHernandez\WebApi.DataAccess\obj\Debug\netcoreapp2.2\WebApi.DataAccess.AssemblyInfo.cs
+C:\Users\phernandez\source\repos\PruebaAndresHernandez\WebApi.DataAccess\bin\Debug\netcoreapp2.2\WebApi.DataAccess.runtimeconfig.json
+C:\Users\phernandez\source\repos\PruebaAndresHernandez\WebApi.DataAccess\bin\Debug\netcoreapp2.2\WebApi.DataAccess.runtimeconfig.dev.json
+C:\Users\phernandez\source\repos\PruebaAndresHernandez\WebApi.DataAccess\bin\Debug\netcoreapp2.2\WebApi.DataAccess.pdb
+C:\Users\phernandez\source\repos\PruebaAndresHernandez\WebApi.DataAccess\obj\Debug\netcoreapp2.2\WebApi.DataAccess.dll
+C:\Users\phernandez\source\repos\PruebaAndresHernandez\WebApi.DataAccess\obj\Debug\netcoreapp2.2\WebApi.DataAccess.pdb
+C:\Users\phernandez\source\repos\PruebaAndresHernandez\WebApi.DataAccess\obj\Debug\netcoreapp2.2\WebApi.DataAccess.csprojAssemblyReference.cache
